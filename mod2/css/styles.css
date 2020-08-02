@@ -1,0 +1,101 @@
+
+    * {
+      box-sizing: border-box;
+    }
+
+    @media (min-width: 992px) {
+      .col-1 {
+        float: left;
+        width: 33.3%;
+        
+
+      }
+    }
+
+    @media (min-width:768px) and (max-width: 991px) {
+      .col-2 {
+        float: left;
+        width: 50%;
+      }
+      .col-22{
+        float: left;
+        width: 100%;
+      }
+
+      div.overwrite{
+        width: 93%;
+      }
+
+      
+
+
+    }
+
+    body{
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+
+    
+
+
+    
+
+    .para{
+
+      background-color: rgb(146, 145, 145);
+      position: relative;
+      width:85%;
+      border: 3px solid black;
+      
+      margin-right: auto;
+      margin-left:auto;
+      padding-top: 18px;
+      
+      margin-bottom: 15px;
+      padding-left: 8px;
+      padding-right: 8px;
+      
+
+    }
+
+    .title {
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      padding: 4px;
+      width:30%;
+      text-align: center;
+      font-size: 1.25em;
+      
+      
+
+    }
+
+    .row {
+      width: 100%;
+    }
+
+    #Chicken{
+      background-color: pink;
+    }
+    #Beef{
+      background-color: rgba(255, 0, 0, 0.514);
+      color: white;
+    }
+    #Sushi{
+      background-color: rgba(255, 230, 0, 0.925);
+    }
+
+    
+
+
+
+
+
+
+    h1 {
+      margin: 15px;
+      text-align: center;
+      font-size: 1.75em;
+      
+    }
